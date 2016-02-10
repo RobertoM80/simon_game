@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Simon Game</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  <div id='ex' class="container outer-border">
+    <div class='inner-border'>
+      <a id='green' href="#"><div id='green' class='big-button green'></div></a>
+      <a id='red' href="#"><div id='red' class='big-button red'></div></a>
+      <a id='yellow' href="#"><div id='yellow' class='big-button yellow'></div></a>
+      <a id='blue' href="#"><div id='blue' class='big-button blue'></div></a>
+      <div class='divider vertical'></div>
+      <div class='divider orizzontal'></div>
+      <div class='control-circle-outer'> 
+        <div class='control-circle-inner'>
+          <div class='title'>
+            <a id='title' href="#"><h1 id='title'>SIMON<span class='register'>&reg</span></h1></a>
+          </div>
+          <div class='controls'> 
+            <div id='count' class='display'></div>
+            <a id='start' href="#"><div class='round-button start'><h2>START</h2></div></a>        
+            <a id='strict' href="#"><div class='round-button strict'><h2>STRICT</h2></div></a>
+            <div class='onoff'>
+              <a id='onoff' href="#"><div class='selector'></div></a>
+              <h2 >ON/OFF</h2>
+            </div>
+            <h2 class='count'>COUNT</h2>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <audio source src='https://s3.amazonaws.com/freecodecamp/simonSound1.mp3'></audio>
+  <audio source src='https://s3.amazonaws.com/freecodecamp/simonSound2.mp3'></audio>
+  <audio source src='https://s3.amazonaws.com/freecodecamp/simonSound3.mp3'></audio>
+  <audio source src='https://s3.amazonaws.com/freecodecamp/simonSound4.mp3'></audio>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src='scripts/main2.js' type="text/javascript"></script>
+</body>
+</html>
